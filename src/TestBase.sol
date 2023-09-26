@@ -71,9 +71,9 @@ abstract contract AAGasProfileBase is Test {
             op.initCode = getInitCode(owner);
         }
         op.callData = _data;
-        op.callGasLimit = 1000000;
-        op.verificationGasLimit = 1000000;
-        op.preVerificationGas = 21000;
+        op.callGasLimit = 1048576;
+        op.verificationGasLimit = 1048576;
+        op.preVerificationGas = 32768;
         op.maxFeePerGas = 1;
         op.maxPriorityFeePerGas = 1;
         op.signature = getDummySig(op);
