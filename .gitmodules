@@ -7,3 +7,9 @@
 [submodule "lib/I4337"]
 	path = lib/I4337
 	url = https://github.com/leekt/I4337
+[submodule "lib/vyper-storage"]
+	path = lib/vyper-storage
+	url = https://github.com/jtriley-eth/vyper-storage
+[submodule "lib/snekmate"]
+	path = lib/snekmate
+	url = https://github.com/pcaversaccio/snekmate
